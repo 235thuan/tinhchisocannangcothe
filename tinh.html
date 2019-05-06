@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TÍNH BMI</title>
+
+    <script src="tinh.js"></script>
+
+</head>
+<style>
+    td.cot {
+        color: blue;
+    }
+</style>
+<table border='1' cellpadding="0" cellspacing="30px" style="background-color: red">
+    <body>
+    <h1 style="color:PURPLE">TÍNH CÂN NẶNG</h1>
+
+
+    </tr>
+    <tr class="dong">
+        <td class="cot" style="background-color: yellow">CÂN NẶNG(kg)</td>
+        <td class="cot">
+            <input type='text' value="" id='diem1'>
+        </td>
+    </tr>
+
+    <tr class="dong">
+        <td class="cot" style="background-color: yellow">CHIỀU CAO (m)</td>
+        <td class="cot">
+            <input type='text' value="" id='diem2'>
+        </td>
+    </tr>
+
+    <tr class="dong">
+        <td class="cot" style="background-color: yellow">BMI</td>
+        <td class="cot">
+            <span id='bmi'style="font-weight: bold;color:yellow"></span>
+        </td>
+
+    <tr class="dong">
+        <td class="cot" style="background-color: yellow">ĐÁNH GIÁ</td>
+        <td class="cot"><span id="demo" style="font-weight: bold;color:yellow"></span>
+        </td>
+    </tr>
+
+</table>
+
+<button type="button" onclick="Tinh()" >Tính</button>
+
+</body>
+</html>
